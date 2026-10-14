@@ -179,4 +179,65 @@ footer {
         min-height: auto;
         padding-bottom: 4rem;
     }
+    
+    /* Body Background Color and Overall Page Margins */
+body {
+    background-color: #1a1a1a; /* Dark sleek background color */
+    color: #ffffff;           /* Crisp white text for contrast */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;                /* Resets default browser outer margin */
+    padding: 0;               /* Resets default browser inner padding */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Main Content Card with Auto Margins for Centering */
+main {
+    max-width: 850px;
+    margin: 40px auto;        /* 40px top/bottom margin, 'auto' centers it horizontally */
+    padding: 30px;            /* Inner spacing inside the content box */
+    background-color: #2b2b2b; /* Slightly lighter card background */
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+    flex: 1;
+}
+
+/* Heading Accents */
+h1, h2 {
+    color: #ffd700;           /* Gold heading accent */
+    margin-top: 0;
+}
+
+/* List Formatting */
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    padding: 8px 0;
+    margin-bottom: 4px;
+    font-size: 1.1rem;
+}
+
+/* Link Styles */
+a {
+    color: #4da6ff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Section */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #111111;
+    color: #888888;
+    margin-top: auto;         /* Pushes footer to the very bottom */
+}
 }
